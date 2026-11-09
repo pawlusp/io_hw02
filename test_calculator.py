@@ -1,9 +1,9 @@
 """Tests for Calculator Class"""
 import sys
-sys.path.insert(1, '/var/home/student/PycharmProjects/PythonProject/')
-
-from calculator import Calculator
 import pytest
+from calculator import Calculator
+
+sys.path.insert(1, '/var/home/student/PycharmProjects/PythonProject/')
 
 #Tests
 def test_sum():
