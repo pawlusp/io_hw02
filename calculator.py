@@ -15,9 +15,6 @@ class Calculator:
     def multiply(self) -> float:
         """Multiply two numbers"""
         return self.op1 * self.op2
-    def divide(self):
+    def divide(self) -> float:
         """Divide two numbers"""
-        try:
-            return self.op1 / self.op2
-        except ZeroDivisionError:
-            return "Błąd: Dzielenie przez zero jest niedozwolone."
+        return self.op1 / self.op2
