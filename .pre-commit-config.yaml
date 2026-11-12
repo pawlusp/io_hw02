@@ -5,3 +5,5 @@ repos:
       - id: pylint
         args:
           - --fail-under=8.0
+        additional_dependencies:
+          - pytest
