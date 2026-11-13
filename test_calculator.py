@@ -15,14 +15,14 @@ class TestCalculator:
         """Check that sum returns the sum of two floats"""
         assert Calculator(3.21,5.34).sum() == pytest.approx(8.55)
 
-    def test_substract(self):
-        """Check that substract returns the substract of two numbers"""
-        assert Calculator(3,5).substract() == -2
+    def test_subtract(self):
+        """Check that subtract returns the subtract of two numbers"""
+        assert Calculator(3,5).subtract() == -2
 
-    def test_substract_string(self):
+    def test_subtract_string(self):
         """Check that string returns the typeError"""
         with pytest.raises(TypeError):
-            Calculator(3, '5').substract()
+            Calculator(3, '5').subtract()
 
     def test_multiply(self):
         """Check that multiply returns the multiply of two numbers"""
