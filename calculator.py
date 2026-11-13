@@ -9,7 +9,7 @@ class Calculator:
     def sum(self) -> float:
         """Add two numbers"""
         return self.op1 + self.op2
-    def substract(self) -> float:
+    def subtract(self) -> float:
         """Subtract two numbers"""
         return self.op1 - self.op2
     def multiply(self) -> float:

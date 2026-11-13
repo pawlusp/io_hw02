@@ -7,3 +7,5 @@ repos:
           - --fail-under=8.0
         additional_dependencies:
           - pytest
+          - flask
+          - playwright
