@@ -35,9 +35,8 @@ class TestCalculator:
         assert Calculator(10,5).divide() == 2
 
     def test_zero_divide(self):
-        """Check that divide by zero returns the ZeroDivisionError"""
-        with pytest.raises(ZeroDivisionError):
-            Calculator(3,0).divide()
+        """Check that divide by zero returns the None"""
+        assert Calculator(10,0).divide() is None
 
     @pytest.mark.parametrize("a, b, expected", [
             (2, 3, 5),
